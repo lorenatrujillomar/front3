@@ -1,15 +1,20 @@
-import Card from "./Card";
+import Card from "./Components/Card";
+import Formulario from "./Components/Form";
+
 
 
 function App() {
   return (
     <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
+      <h1>Registro Usuario</h1>
+      <Formulario />
       <Card />
+    
     </div>
   );
 }
 
 
 export default App;
+
+
